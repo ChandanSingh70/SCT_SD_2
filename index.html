@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guessing Game</h1>
+        <p>Guess a number between 1 and 10</p>
+        <form id="guessForm">
+            <div class="form-group">
+                <input type="number" id="guess" class="form-control" min="1" max="10" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit Guess</button>
+        </form>
+        <p id="result" class="mt-3"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
